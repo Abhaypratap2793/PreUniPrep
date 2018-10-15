@@ -11,13 +11,21 @@ public class QuizMainfragmentAdapter extends FragmentStatePagerAdapter {
         super(fm);
     }
 
+
+
+
     @Override
     public Fragment getItem(int position) {
 
         QuizMainFirstFragment quizMainFirstFragment = new QuizMainFirstFragment();
         Bundle mybundle = new Bundle();
         position = position+1;
-        mybundle.putString("message","Page Nomber:"+position);
+       // mybundle.putString("message","Page Nomber:"+position);
+
+       String json = "";
+
+
+
         quizMainFirstFragment.setArguments(mybundle);
         return quizMainFirstFragment;
     }

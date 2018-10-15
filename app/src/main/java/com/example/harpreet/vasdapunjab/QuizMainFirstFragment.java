@@ -18,9 +18,9 @@ public class QuizMainFirstFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
        quizMainFragview = inflater.inflate(R.layout.quizmainfirstfrag,container,false);
-       textView = quizMainFragview.findViewById(R.id.textInQuiz);
-       String message = getArguments().getString("message");
-       textView.setText(message);
+     //  textView = quizMainFragview.findViewById(R.id.textInQuiz);
+      // String message = getArguments().getString("message");
+     //  textView.setText(message);
 
         return quizMainFragview;
     }

@@ -7,28 +7,19 @@
     android:orientation="vertical"
     tools:context=".First_Screen">
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:id="@+id/inputName"
-        android:layout_marginTop="100dp"
-        android:layout_height="wrap_content">
+
         <EditText
             android:drawableLeft="@drawable/ic_person_black_24dp"
             android:textSize="17sp"
             android:layout_width="200dp"
-            android:hint="User Name"
+            android:hint="User Name here"
             android:maxLines="1"
             android:inputType="text"
             android:layout_gravity="center"
             android:id="@+id/name"
             android:layout_height="50sp" />
 
-    </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:id="@+id/inputPassword"
-        android:layout_marginTop="10dp"
-        android:layout_height="wrap_content">
+
         <EditText
             android:drawableLeft="@drawable/ic_lock_black_24dp"
             android:textSize="17sp"
@@ -40,7 +31,7 @@
             android:id="@+id/password"
             android:layout_height="50sp" />
 
-    </android.support.design.widget.TextInputLayout>
+
 
 
 

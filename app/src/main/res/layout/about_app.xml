@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ham SArey Koosey Hn"
+        android:text="About App"
         android:textSize="50sp"
         android:textColor="#000"/>
 </LinearLayout>

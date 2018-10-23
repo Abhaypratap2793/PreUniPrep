@@ -8,6 +8,6 @@
         android:layout_height="wrap_content"
         android:text="feedback"
         android:textSize="50sp"
-        android:textColor="#000"/>
+        android:textColor="#423888"/>
 
 </LinearLayout>

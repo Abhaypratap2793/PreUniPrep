@@ -7,11 +7,7 @@
     android:orientation="vertical"
     tools:context=".First_Screen">
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:id="@+id/inputName"
-        android:layout_marginTop="100dp"
-        android:layout_height="wrap_content">
+
         <EditText
             android:drawableLeft="@drawable/ic_person_black_24dp"
             android:textSize="17sp"
@@ -23,12 +19,7 @@
             android:id="@+id/name"
             android:layout_height="50sp" />
 
-    </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:id="@+id/inputPassword"
-        android:layout_marginTop="10dp"
-        android:layout_height="wrap_content">
+
         <EditText
             android:drawableLeft="@drawable/ic_lock_black_24dp"
             android:textSize="17sp"
@@ -40,7 +31,7 @@
             android:id="@+id/password"
             android:layout_height="50sp" />
 
-    </android.support.design.widget.TextInputLayout>
+
 
 
 

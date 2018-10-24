@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="feedback"
+        android:text="feedback tomar ko kuch samjh nahi aa rha"
         android:textSize="50sp"
         android:textColor="#000"/>
 

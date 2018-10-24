@@ -12,7 +12,7 @@
             android:drawableLeft="@drawable/ic_person_black_24dp"
             android:textSize="17sp"
             android:layout_width="200dp"
-            android:hint="User Name"
+            android:hint="User Name here"
             android:maxLines="1"
             android:inputType="text"
             android:layout_gravity="center"
